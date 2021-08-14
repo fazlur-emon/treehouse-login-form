@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Geneva,sans-serif;
+}
+header{
+    background-color: #5DBAFD;
+    border-bottom: 6px solid rgba(124, 118, 118, 0.083);
+}
+header nav{
+    width: 50%;
+    margin: auto;
+
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+}
+header nav ul li img{
+    width: 200px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: azure;
+
+}
+.content{
+    display: flex;
+    min-height: 89vh;
+
+}
+.feature-img{
+    width: 40%;
+    background: #5DBAFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feature-img img{
+    width: 80%;
+
+    
+}
+.form{
+    width: 60%;
+    background:#0093FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form-content{
+    width: 30%;
+    
+
+}
+.form h2{
+    font-size: 30px;
+}
+.form p{
+    font-size: 14px;
+    padding: 10px 0px;
+
+}
+.form h3{
+    padding: 10px 0px;
+
+}
+.form form{
+    
+
+}
+.form form input{
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.form form input[type="submit"]{
+    width: auto;
+    color: rgb(0, 166, 255);
+    cursor: pointer;
+}
+
+.form ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    margin-top: 30px;
+    
+}
+.form ul li{
+    list-style: none;
+    font-size: 12px;
+
+}
+.form ul a{
+    text-decoration: none;
+    color: white;
+
+}
